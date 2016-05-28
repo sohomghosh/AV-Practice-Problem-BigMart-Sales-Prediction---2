@@ -1,6 +1,11 @@
-setwd("C:\\Users\\Sohom Ghosh\\Desktop\\BigDataMart")
+#setting the path
+path<-"..."
+setwd(path)
+
+
 train<-read.csv("Train_UWu5bXk.csv")
 test<-read.csv("Test_u94Q5KV.csv")
+
 #item_op_sales<-train['Item_Outlet_Sales']
 #mean_item_op_sales<-mean(item_op_sales[,1])
 
